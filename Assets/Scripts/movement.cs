@@ -15,9 +15,7 @@ public class movement : MonoBehaviour
     private Rigidbody2D rb;
 
     // public Animator animator;
-    public GameObject sock;
-    public int flyingSocksLeft = 10;
-    private Vector2 shootDir;
+
 
     // Start is called before the first frame update
     void Start()
@@ -36,16 +34,6 @@ public class movement : MonoBehaviour
         else if (moveInputHorizontal < 0) {
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
-
-        if (Input.GetButtonDown("Fire1"))
-        {
-            shootDir = Input.mousePosition - transform.position;
-            GameObject sock = (GameObject)Instantiate(Resources.Load("Prefabs/FlyingSock"));
-            sock.transform.position = transform.position;
-            //sock.moveDirection = Vector2(1, 1);
-            
-        }
-
     }
     void FixedUpdate() {
         // movement
