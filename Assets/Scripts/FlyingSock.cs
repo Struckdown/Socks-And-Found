@@ -5,7 +5,7 @@ using UnityEngine;
 public class FlyingSock : MonoBehaviour
 {
     private Rigidbody2D rb;
-    public float flyspeed = 3;
+    public float flyspeed = 15;
     public Vector2 moveDirection = new Vector2(-1, 0);
 
     // Start is called before the first frame update
@@ -14,8 +14,7 @@ public class FlyingSock : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         rb.velocity = moveDirection.normalized * Time.deltaTime * flyspeed;
     }
