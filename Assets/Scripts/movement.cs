@@ -14,8 +14,8 @@ public class movement : MonoBehaviour
     // inits rigid body
     private Rigidbody2D rb;
 
-    public Animator animator;
-    //public GameObject sock;
+    // public Animator animator;
+    public GameObject sock;
     public int flyingSocksLeft = 10;
     private Vector2 shootDir;
 
@@ -30,12 +30,12 @@ public class movement : MonoBehaviour
     {
 
         // flips player
-        // if (moveInput > 0) {
-        //     transform.eulerAngles = new Vector3(0, 0, 0);
-        // }
-        // else if (moveInput < 0) {
-        //     transform.eulerAngles = new Vector3(0, 180, 0);
-        // }
+        if (moveInputHorizontal > 0) {
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }
+        else if (moveInputHorizontal < 0) {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
 
         if (Input.GetButtonDown("Fire1"))
         {
@@ -47,17 +47,17 @@ public class movement : MonoBehaviour
         }
 
         // quits game if escape button is entered
-        if (Input.GetKey("escape")) {
-            Application.Quit();
-        }
+        // if (Input.GetKey("escape")) {
+        //     Application.Quit();
+        // }
     }
     void FixedUpdate() {
         // movement
         moveInputHorizontal = Input.GetAxisRaw("Horizontal");
         moveInputVertical = Input.GetAxisRaw("Vertical");
 
-        animator.SetFloat("HorizontalMovement", moveInputHorizontal);
-        animator.SetFloat("VerticalMovement", moveInputVertical);
+        // animator.SetFloat("HorizontalMovement", moveInputHorizontal);
+        // animator.SetFloat("VerticalMovement", moveInputVertical);
         
 
         rb.velocity = new Vector2(moveInputHorizontal * speed, moveInputVertical * speed);
