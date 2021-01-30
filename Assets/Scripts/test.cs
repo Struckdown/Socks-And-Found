@@ -7,6 +7,7 @@ public class test : MonoBehaviour
     public int currentHealth;
     public int maxHealth = 20;
     public HealthBarScript healthBar;
+    public GameObject gameOverMenu;
     void Start()
     {
         currentHealth = maxHealth;
@@ -24,6 +25,10 @@ public class test : MonoBehaviour
 
     void TakeDamage(int damage) {
         currentHealth -= damage;
+        if (currentHealth == 0) {
+            gameOverMenu.SetActive(true);
+            Time.timeScale = 0f;
+        }
         healthBar.SetHealth(currentHealth);
     }
 }
