@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 4600b760fe6fd304d82f60b14751c075
+guid: 052301fde63d9e7499a3a47c2dc1a183
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8688063907637273540
-    second: spr_player_back_0
+      213: 2349823048418623371
+    second: spr_player_back_gun_0
   - first:
-      213: -2615040393699013856
-    second: spr_player_back_1
+      213: -3022651874455787516
+    second: spr_player_back_gun_1
   - first:
-      213: -3795207125686438200
-    second: spr_player_back_2
+      213: 5941868388688086515
+    second: spr_player_back_gun_2
   - first:
-      213: -8124884078268701179
-    second: spr_player_back_3
+      213: -4920000210281079406
+    second: spr_player_back_gun_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_player_back_0
+      name: spr_player_back_gun_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,14 +113,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c3ac98b714329870800000000000000
-      internalID: 8688063907637273540
+      spriteID: b8f7406dc9f3c9020800000000000000
+      internalID: 2349823048418623371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_back_1
+      name: spr_player_back_gun_1
       rect:
         serializedVersion: 2
         x: 20
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02bc544fd9285bbd0800000000000000
-      internalID: -2615040393699013856
+      spriteID: 408e46782226d06d0800000000000000
+      internalID: -3022651874455787516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_back_2
+      name: spr_player_back_gun_2
       rect:
         serializedVersion: 2
         x: 40
@@ -155,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c6bd602a37b45bc0800000000000000
-      internalID: -3795207125686438200
+      spriteID: 3f540e171d1c57250800000000000000
+      internalID: 5941868388688086515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_back_3
+      name: spr_player_back_gun_3
       rect:
         serializedVersion: 2
         x: 60
@@ -176,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50621917afc9e3f80800000000000000
-      internalID: -8124884078268701179
+      spriteID: 29d595340e5a8bbb0800000000000000
+      internalID: -4920000210281079406
       vertices: []
       indices: 
       edges: []

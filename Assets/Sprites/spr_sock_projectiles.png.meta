@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 4600b760fe6fd304d82f60b14751c075
+guid: 3f92858947628c54085da9a1bc30da6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8688063907637273540
-    second: spr_player_back_0
+      213: -5335006448888089248
+    second: spr_sock_projectiles_0
   - first:
-      213: -2615040393699013856
-    second: spr_player_back_1
+      213: 6762221506433599458
+    second: spr_sock_projectiles_1
   - first:
-      213: -3795207125686438200
-    second: spr_player_back_2
+      213: 5633657258634429277
+    second: spr_sock_projectiles_2
   - first:
-      213: -8124884078268701179
-    second: spr_player_back_3
+      213: 807234024928627541
+    second: spr_sock_projectiles_3
+  - first:
+      213: -1072979589490862530
+    second: spr_sock_projectiles_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_player_back_0
+      name: spr_sock_projectiles_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 20
-        height: 35
+        width: 11
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,20 +116,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c3ac98b714329870800000000000000
-      internalID: 8688063907637273540
+      spriteID: 0657b9b96ef36f5b0800000000000000
+      internalID: -5335006448888089248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_back_1
+      name: spr_sock_projectiles_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 11
         y: 0
-        width: 20
-        height: 35
+        width: 11
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02bc544fd9285bbd0800000000000000
-      internalID: -2615040393699013856
+      spriteID: 2e74b7fd1ac38dd50800000000000000
+      internalID: 6762221506433599458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_back_2
+      name: spr_sock_projectiles_2
       rect:
         serializedVersion: 2
-        x: 40
+        x: 22
         y: 0
-        width: 20
-        height: 35
+        width: 11
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c6bd602a37b45bc0800000000000000
-      internalID: -3795207125686438200
+      spriteID: d53c437ad65ce2e40800000000000000
+      internalID: 5633657258634429277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_back_3
+      name: spr_sock_projectiles_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 33
         y: 0
-        width: 20
-        height: 35
+        width: 11
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +179,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50621917afc9e3f80800000000000000
-      internalID: -8124884078268701179
+      spriteID: 55bca7a911fd33b00800000000000000
+      internalID: 807234024928627541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sock_projectiles_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36172d8fb20c11f0800000000000000
+      internalID: -1072979589490862530
       vertices: []
       indices: 
       edges: []

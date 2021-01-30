@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 4600b760fe6fd304d82f60b14751c075
+guid: 14f933998f1f98145a9a239010b34511
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8688063907637273540
-    second: spr_player_back_0
+      213: -2350274992090065654
+    second: spr_player_front_gun_0
   - first:
-      213: -2615040393699013856
-    second: spr_player_back_1
+      213: 1531449078712253115
+    second: spr_player_front_gun_1
   - first:
-      213: -3795207125686438200
-    second: spr_player_back_2
+      213: 7771638066040567234
+    second: spr_player_front_gun_2
   - first:
-      213: -8124884078268701179
-    second: spr_player_back_3
+      213: -4420274922199407121
+    second: spr_player_front_gun_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,12 +99,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_player_back_0
+      name: spr_player_front_gun_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 20
+        width: 18
         height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -113,19 +113,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c3ac98b714329870800000000000000
-      internalID: 8688063907637273540
+      spriteID: a05dcf3d855226fd0800000000000000
+      internalID: -2350274992090065654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_back_1
+      name: spr_player_front_gun_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 18
         y: 0
-        width: 20
+        width: 18
         height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -134,19 +134,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02bc544fd9285bbd0800000000000000
-      internalID: -2615040393699013856
+      spriteID: bba3e38b2dcc04510800000000000000
+      internalID: 1531449078712253115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_back_2
+      name: spr_player_front_gun_2
       rect:
         serializedVersion: 2
-        x: 40
+        x: 36
         y: 0
-        width: 20
+        width: 18
         height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -155,19 +155,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c6bd602a37b45bc0800000000000000
-      internalID: -3795207125686438200
+      spriteID: 2c5704925a76adb60800000000000000
+      internalID: 7771638066040567234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_back_3
+      name: spr_player_front_gun_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 54
         y: 0
-        width: 20
+        width: 18
         height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -176,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50621917afc9e3f80800000000000000
-      internalID: -8124884078268701179
+      spriteID: fe5acbcb06708a2c0800000000000000
+      internalID: -4420274922199407121
       vertices: []
       indices: 
       edges: []
