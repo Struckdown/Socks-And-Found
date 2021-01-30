@@ -28,12 +28,11 @@ public class EnemyBase : MonoBehaviour
     // Update is called once per frame
     void Update() {
         timeElapsed += Time.deltaTime;
+
+        // check if the player is within a radius of distanceToNoticePlayer units to this enemy
         if ((player.transform.position - this.transform.position).magnitude < distanceToNoticePlayer)
         {
-            // the player is within a radius of distanceToNoticePlayer units to this enemy
-
             moveDirection = player.transform.position - this.transform.position;
-            //moveDirection = moveDirection.forward * Time.deltaTime;
             transform.Translate(moveDirection.normalized * Time.deltaTime * moveSpeed);
         }
         else
@@ -65,7 +64,6 @@ public class EnemyBase : MonoBehaviour
     void getNewGoalPoint()
     {
         goalPoint = new Vector2(spawnPoint[0]+Random.Range(-leashRange / 2, leashRange / 2), spawnPoint[1]+Random.Range(-leashRange / 2, leashRange / 2));
-        Debug.Log("GoalPoint:" + goalPoint);
         return;
     }
 }

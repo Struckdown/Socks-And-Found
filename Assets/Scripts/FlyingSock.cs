@@ -6,7 +6,7 @@ public class FlyingSock : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float flyspeed = 3;
-    public Vector2 moveDirection = new Vector2(1, 0);
+    public Vector2 moveDirection = new Vector2(-1, 0);
 
     // Start is called before the first frame update
     void Start()
