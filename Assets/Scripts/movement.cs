@@ -46,10 +46,6 @@ public class movement : MonoBehaviour
             
         }
 
-        // quits game if escape button is entered
-        // if (Input.GetKey("escape")) {
-        //     Application.Quit();
-        // }
     }
     void FixedUpdate() {
         // movement
