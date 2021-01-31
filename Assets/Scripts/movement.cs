@@ -21,6 +21,7 @@ public class movement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        this.transform.position = GameManager.startPosition;
     }
 
     // Update is called once per frame
