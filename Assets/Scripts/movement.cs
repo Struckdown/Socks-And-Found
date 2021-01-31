@@ -17,11 +17,11 @@ public class movement : MonoBehaviour
     public Animator animator;
     public AudioSource footsteps;
 
-
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
 
         if (GameManager.startPosition != new Vector2(0, 0))
         {
@@ -34,20 +34,27 @@ public class movement : MonoBehaviour
     {
 
         // flips player
-        //if (moveInputHorizontal > 0) {
-          //  transform.eulerAngles = new Vector3(0, 0, 0);
-        //}
-        //else if (moveInputHorizontal < 0) {
-          //  transform.eulerAngles = new Vector3(0, 180, 0);
-        //}
+        // if (moveInputHorizontal > 0) {
+        //     transform.eulerAngles = new Vector3(0, 0, 0);
+        // }
+        // else if (moveInputHorizontal < 0) {
+        //     transform.eulerAngles = new Vector3(0, 180, 0);
+        // }
     }
     void FixedUpdate() {
         // movement
         moveInputHorizontal = Input.GetAxisRaw("Horizontal");
         moveInputVertical = Input.GetAxisRaw("Vertical");
 
-        animator.SetFloat("HorizontalMovement", moveInputHorizontal);
-        animator.SetFloat("VerticalMovement", moveInputVertical);
+        if (moveInputHorizontal > 0) {
+            animator.SetInteger("state", 3);
+        } else if (moveInputHorizontal < 0) {
+            animator.SetInteger("state", 1);
+        } else if (moveInputVertical > 0) {
+            animator.SetInteger("state", 2);
+        } else {
+            animator.SetInteger("state", 0);
+        }
 
         if (moveInputHorizontal != 0 || moveInputVertical != 0)
         {
