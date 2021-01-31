@@ -23,10 +23,7 @@ public class fade : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time >= duration * 3 + stay * 3) {
-            Debug.Log(1);
-            StartCoroutine(fadeIn(canvGroup2, canvGroup2.alpha, 0));
-        } else if (Time.time >= duration * 2 + stay * 2){
+        if (Time.time >= duration * 2 + stay * 2){
             StartCoroutine(fadeIn(canvGroup2, canvGroup2.alpha, 1));
         } else if (Time.time >= duration + stay) {
             StartCoroutine(fadeIn(canvGroup1, canvGroup1.alpha, 0));
