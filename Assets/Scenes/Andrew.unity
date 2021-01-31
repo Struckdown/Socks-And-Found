@@ -573,6 +573,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 372567222015125929, guid: ca79cbd559ac11f4584cac0f30f4719f,
+        type: 3}
+      propertyPath: cleanSocks
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 372567222672528123, guid: ca79cbd559ac11f4584cac0f30f4719f,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -861,10 +866,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Solid
       objectReference: {fileID: 0}
+    - target: {fileID: 3598140019164951839, guid: 7658b4f8afbdb654b8c2470a519c3826,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 3598140019528814722, guid: 7658b4f8afbdb654b8c2470a519c3826,
         type: 3}
       propertyPath: m_SortingOrder
       value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3598140019528814725, guid: 7658b4f8afbdb654b8c2470a519c3826,
+        type: 3}
+      propertyPath: m_TagString
+      value: Solid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7658b4f8afbdb654b8c2470a519c3826, type: 3}

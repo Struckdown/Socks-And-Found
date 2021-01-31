@@ -17,6 +17,8 @@ public class collectablesManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        textClean.text = "x" + cleanSocks.ToString();
+        textDirty.text = "x" + dirtySocks.ToString();
         if (instance==null) {
             instance = this;
         }
