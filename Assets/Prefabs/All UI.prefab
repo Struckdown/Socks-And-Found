@@ -431,7 +431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textClean: {fileID: 4671042602677432231}
   textDirty: {fileID: 4671042601947901980}
-  cleanSocks: 0
+  cleanSocks: 1
   dirtySocks: 0
   audioSourceDirty: {fileID: 0}
   audioSourceClean: {fileID: 0}
