@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/room4.unity
     guid: f283ca79b0568ef4f9c187b1155443b7
+  - enabled: 1
+    path: Assets/Scenes/GoodEnding.unity
+    guid: 51a3f61db70a4a34dbb65967a4a41d98
+  - enabled: 1
+    path: Assets/Scenes/BadEnding.unity
+    guid: 7797b5c8a9c0cc74193bf97c83cb9818
   m_configObjects: {}
