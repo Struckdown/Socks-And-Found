@@ -28,4 +28,11 @@ public class collectablesManager : MonoBehaviour
         dirtySocks += sockValue;
         textDirty.text = "x" + dirtySocks.ToString();
     }
+    public void cleanDirtySocks() {
+        cleanSocks += dirtySocks;
+        dirtySocks = 0;
+        // updates text
+        textClean.text = "x" + cleanSocks.ToString();
+        textDirty.text = "x" + dirtySocks.ToString();
+    }
 }
