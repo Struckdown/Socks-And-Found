@@ -6,7 +6,6 @@ public class playerShooter : MonoBehaviour
 {
     public int flyingSocksLeft = 10;
     private Vector2 shootDir;
-    public int health = 100;
     public AudioClip[] audio;
 
     // Start is called before the first frame update
