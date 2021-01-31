@@ -109,7 +109,7 @@ public class EnemyBase : MonoBehaviour
         animator.SetFloat("VerticalMotion", curVelocity[1]);
         animator.SetFloat("HorizontalMotion", curVelocity[0]);
 
-        rb.velocity = curVelocity * Time.deltaTime;
+        rb.velocity = curVelocity;
 
     }
 
