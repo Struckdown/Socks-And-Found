@@ -897,6 +897,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4671042602618372705, guid: fda795572ed35ff4483720d4d9582ccc,
         type: 3}
+      propertyPath: shootingSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4671042602618372705, guid: fda795572ed35ff4483720d4d9582ccc,
+        type: 3}
       propertyPath: audioSourceClean
       value: 
       objectReference: {fileID: 5085219487239819354}
