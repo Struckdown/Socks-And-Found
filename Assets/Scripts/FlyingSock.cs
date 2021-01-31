@@ -17,6 +17,14 @@ public class FlyingSock : MonoBehaviour
         randomSound.clip = audio[Random.Range(0, audio.Length-1)];
         randomSound.Play();
     }
+    private void OnTriggerEnter2D(Collider2D collision) {
+        
+        if (collision.gameObject.CompareTag("Solid")) {
+            GameObject sock = (GameObject)Instantiate(Resources.Load("Prefabs/smellySock"));
+            sock.transform.position = transform.position;
+            Destroy(gameObject);
+        }
+    }
 
     void FixedUpdate()
     {
