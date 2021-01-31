@@ -14,7 +14,9 @@ public class EnemyBase : MonoBehaviour
     public int health = 5;
 
     private Rigidbody2D rb;
-
+    public AudioClip[] audio;
+    public AudioSource randomSound;
+    public AudioClip[] hurtAudio;
     public Animator animator;
 
     //Wander logic
@@ -35,8 +37,15 @@ public class EnemyBase : MonoBehaviour
         getNewGoalPoint();
         delayBeforeNextMovement = Random.Range(3, 6);
         rb = GetComponent<Rigidbody2D>();
+
+        Invoke("emitRandomSound", Random.Range(7, 12));
     }
 
+    void emitRandomSound()
+    {
+        AudioSource.PlayClipAtPoint(audio[Random.Range(0, audio.Length)], this.gameObject.transform.position);
+        Invoke("emitRandomSound", Random.Range(7, 12));
+    }
     // Update is called once per frame
     void Update() {
         timeElapsed += Time.deltaTime;
@@ -62,6 +71,7 @@ public class EnemyBase : MonoBehaviour
     {
         Vector2 distanceVector = player.transform.position - this.transform.position;
         v = distanceVector.magnitude * -100;
+
         return;
     }
 
@@ -116,6 +126,7 @@ public class EnemyBase : MonoBehaviour
     void takeDamage()
     {
         health -= 1;
+        AudioSource.PlayClipAtPoint(audio[Random.Range(0, audio.Length)], this.gameObject.transform.position);
         if (health <= 0)
         {
             Destroy(gameObject);

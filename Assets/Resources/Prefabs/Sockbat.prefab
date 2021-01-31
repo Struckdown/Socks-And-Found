@@ -54,6 +54,13 @@ MonoBehaviour:
   maxSpeed: 2
   damage: 5
   health: 2
+  audio:
+  - {fileID: 8300000, guid: 28ab5e3ccee625342b3148fd8ac7c082, type: 3}
+  - {fileID: 8300000, guid: 8cc24023cb9c5374ca3bec5c80357c99, type: 3}
+  randomSound: {fileID: 2299505729664256994}
+  hurtAudio:
+  - {fileID: 8300000, guid: 3c82acf5979da89419a7de0e52c1e599, type: 3}
+  - {fileID: 8300000, guid: 455d43613c948df4e83aca87acf08039, type: 3}
   animator: {fileID: 2685971206305542662}
   distanceToNoticePlayer: 5
   leashRange: 10

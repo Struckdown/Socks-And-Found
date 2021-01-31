@@ -262,6 +262,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flyingSocksLeft: 10
   health: 100
+  audio:
+  - {fileID: 8300000, guid: 82a16d517746620498796792fcd22bed, type: 3}
+  - {fileID: 8300000, guid: fb75ef4378f5ef244927dbfd2b5a726e, type: 3}
+  - {fileID: 8300000, guid: a890523b801530743ba528878a25ce99, type: 3}
+  - {fileID: 8300000, guid: 07028d9c2faa2b7408798e709f0ab54f, type: 3}
+  - {fileID: 8300000, guid: 5d0eee9339b4f45429562f830701220c, type: 3}
+  - {fileID: 8300000, guid: 22de3adb1b645fc45bdf3daf49feb0d1, type: 3}
+  - {fileID: 8300000, guid: d0f721baaaedb75439ff868a34de69ef, type: 3}
+  - {fileID: 8300000, guid: df900136bed63ff4aae1216617de73fe, type: 3}
+  - {fileID: 8300000, guid: a19f0f44b0791c94c9445777a3e37873, type: 3}
+  - {fileID: 8300000, guid: 88ff0990114faa749b21c7401e27c219, type: 3}
+  - {fileID: 8300000, guid: 1ed6b8a4e2d592342b2b52ffe855165d, type: 3}
+  - {fileID: 8300000, guid: 43fe4469bde6f134dbe52fc12e3105d6, type: 3}
+  - {fileID: 8300000, guid: e00dba82d8291d14dbce2bacb758dcb4, type: 3}
+  - {fileID: 8300000, guid: f4c268f5f2e165646ba095633d9cd698, type: 3}
 --- !u!95 &1091664376321654498
 Animator:
   serializedVersion: 3
