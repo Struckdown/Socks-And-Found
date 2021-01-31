@@ -17,7 +17,7 @@ WASD / arrow keys - move
 Left mouse - shoot
 P - pause
 
-You have limitted ammo. Collect more ammo around the overworld. Once you shoot a sock, it will 
+You have limited ammo. Collect more ammo around the overworld. Once you shoot a sock, it will 
 become dirty. Clean your socks at pools of detergent. 
 
 ## Team 👨‍👨‍👦‍👦
