@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class test : MonoBehaviour
+public class healthManager : MonoBehaviour
 {
     public int currentHealth;
     public int maxHealth = 20;
@@ -17,13 +17,12 @@ public class test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L)) {
-            TakeDamage(1);
-        }
-        
+        // if (Input.GetKeyDown(KeyCode.L)) {
+        //     TakeDamage(1);
+        // }
     }
 
-    void TakeDamage(int damage) {
+    void TakeDamage(int damage = 1) {
         currentHealth -= damage;
         if (currentHealth == 0) {
             gameOverMenu.SetActive(true);
