@@ -70,7 +70,7 @@ public class EnemyBase : MonoBehaviour
     void bumpPlayer()
     {
         Vector2 distanceVector = player.transform.position - this.transform.position;
-        v = distanceVector.magnitude * -100;
+        v = -8;
 
         return;
     }
