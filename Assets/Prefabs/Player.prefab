@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2387527500789921019}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.01148919, z: -1.99}
+  m_LocalPosition: {x: 0.1215, y: -0.27153882, z: -4}
   m_LocalScale: {x: 0.0021878148, y: 0.0021878148, z: 0.0021878148}
   m_Children: []
   m_Father: {fileID: 2387527501686188285}
@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 2387527501686188034}
   - component: {fileID: 2387527501686188033}
   - component: {fileID: 2387527501686188286}
+  - component: {fileID: -7739171655046512302}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -225,7 +226,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &2387527501686188034
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -239,7 +240,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.124779195}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -250,7 +251,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19, y: 0.35}
+  m_Size: {x: 0.19, y: 0.10044163}
   m_EdgeRadius: 0
 --- !u!114 &2387527501686188033
 MonoBehaviour:
@@ -265,8 +266,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  sock: {fileID: 0}
-  flyingSocksLeft: 10
 --- !u!114 &2387527501686188286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,3 +279,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 0}
+--- !u!114 &-7739171655046512302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2387527501686188032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5d1e0842de0e24d9645e65e4bfe010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flyingSocksLeft: 10
+  health: 100
+  camera: {fileID: 2387527500789921015}

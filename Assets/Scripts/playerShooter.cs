@@ -18,9 +18,10 @@ public class playerShooter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetButtonDown("Fire1"))
         {
-            shootDir = camera.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+            shootDir = GetComponent<Camera>().ScreenToWorldPoint(Input.mousePosition) - transform.position;
             
             GameObject sock = (GameObject)Instantiate(Resources.Load("Prefabs/FlyingSock"));
             sock.transform.position = transform.position;

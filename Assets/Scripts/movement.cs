@@ -33,12 +33,12 @@ public class movement : MonoBehaviour
     {
 
         // flips player
-        if (moveInputHorizontal > 0) {
-            transform.eulerAngles = new Vector3(0, 0, 0);
-        }
-        else if (moveInputHorizontal < 0) {
-            transform.eulerAngles = new Vector3(0, 180, 0);
-        }
+        //if (moveInputHorizontal > 0) {
+          //  transform.eulerAngles = new Vector3(0, 0, 0);
+        //}
+        //else if (moveInputHorizontal < 0) {
+          //  transform.eulerAngles = new Vector3(0, 180, 0);
+        //}
     }
     void FixedUpdate() {
         // movement
