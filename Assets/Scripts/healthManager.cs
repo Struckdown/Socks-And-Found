@@ -17,13 +17,12 @@ public class healthManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L)) {
-            TakeDamage(1);
-        }
-        
+        // if (Input.GetKeyDown(KeyCode.L)) {
+        //     TakeDamage(1);
+        // }
     }
 
-    void TakeDamage(int damage) {
+    void TakeDamage(int damage = 1) {
         currentHealth -= damage;
         if (currentHealth == 0) {
             gameOverMenu.SetActive(true);
