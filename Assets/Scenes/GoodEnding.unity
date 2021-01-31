@@ -399,7 +399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1
   stay: 1
-  canvGroup1: {fileID: 349275977}
+  canvGroup: {fileID: 349275977}
 --- !u!4 &388322398
 Transform:
   m_ObjectHideFlags: 0
