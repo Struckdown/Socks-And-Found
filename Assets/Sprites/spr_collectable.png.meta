@@ -120,10 +120,10 @@ TextureImporter:
       name: spr_collectable_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1
-        width: 15
-        height: 18
+        x: 0
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: spr_collectable_1
       rect:
         serializedVersion: 2
-        x: 23
-        y: 1
-        width: 15
-        height: 18
+        x: 20
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: spr_collectable_2
       rect:
         serializedVersion: 2
-        x: 43
-        y: 1
-        width: 15
-        height: 18
+        x: 40
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: spr_collectable_3
       rect:
         serializedVersion: 2
-        x: 63
-        y: 1
-        width: 15
-        height: 18
+        x: 60
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: spr_collectable_4
       rect:
         serializedVersion: 2
-        x: 83
-        y: 1
-        width: 15
-        height: 18
+        x: 80
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: spr_collectable_5
       rect:
         serializedVersion: 2
-        x: 103
-        y: 1
-        width: 15
-        height: 18
+        x: 100
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: spr_collectable_6
       rect:
         serializedVersion: 2
-        x: 123
-        y: 1
-        width: 15
-        height: 18
+        x: 120
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: spr_collectable_7
       rect:
         serializedVersion: 2
-        x: 143
-        y: 1
-        width: 15
-        height: 18
+        x: 140
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: spr_collectable_8
       rect:
         serializedVersion: 2
-        x: 163
-        y: 1
-        width: 15
-        height: 18
+        x: 160
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: spr_collectable_9
       rect:
         serializedVersion: 2
-        x: 183
-        y: 1
-        width: 15
-        height: 18
+        x: 180
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
