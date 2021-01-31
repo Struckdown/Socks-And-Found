@@ -7,6 +7,7 @@ public class StartCuts : MonoBehaviour
 {
 
     public Animator transition;
+    public string nextScene = "Main";
 
     // Start is called before the first frame update
     void Start() {
@@ -25,6 +26,6 @@ public class StartCuts : MonoBehaviour
         yield return new WaitForSeconds(2);
         // Debug.Log("Loaded Main");
 
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene(nextScene);
     }
 }

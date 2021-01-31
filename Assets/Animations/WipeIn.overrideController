@@ -6,8 +6,10 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WipeOut
+  m_Name: WipeIn
   m_Controller: {fileID: 9100000, guid: a84438953a9c2d941b23aec9165aeedb, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 9a571e38c3bd9504180949651a34b141, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: b1d6f9e294616ef4c9880c26e15975e6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7aa74f1da5d0b3f409961ce629a38e5d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e9d14796359b581499564d1a48cd4676, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 93f7ad05f568084409a46427a9e978c4, type: 2}
