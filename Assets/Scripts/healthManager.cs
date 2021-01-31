@@ -10,7 +10,7 @@ public class healthManager : MonoBehaviour
     public GameObject gameOverMenu;
     void Start()
     {
-        currentHealth = maxHealth;
+        currentHealth = GameManager.playerHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
 
@@ -29,5 +29,6 @@ public class healthManager : MonoBehaviour
             Time.timeScale = 0f;
         }
         healthBar.SetHealth(currentHealth);
+        GameManager.playerHealth = currentHealth;
     }
 }

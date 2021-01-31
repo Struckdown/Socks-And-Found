@@ -9,6 +9,7 @@ public class menu : MonoBehaviour
     public void play() {
         //Cursor.visible = false;   // We probably don't want to hide the mouse if this is a mouse shooting game
         SceneManager.LoadScene("Main");
+        GameManager.playerHealth = 20;  //Kinda bad to hardcode this here, but gamejam crunch
     }
 
     public void quit() {
