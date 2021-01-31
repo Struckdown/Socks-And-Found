@@ -104,7 +104,7 @@ public class EnemyBase : MonoBehaviour
         curVelocity[1] = v*sinangle;
 
         animator.SetFloat("VerticalMotion", curVelocity[1]);
-
+        animator.SetFloat("HorizontalMotion", curVelocity[0]);
         transform.Translate(curVelocity * Time.deltaTime);
 
 
