@@ -6,7 +6,7 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SockWipeController
+  m_Name: SockWipeController 1
   m_Controller: {fileID: 9100000, guid: a84438953a9c2d941b23aec9165aeedb, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 9a571e38c3bd9504180949651a34b141, type: 2}

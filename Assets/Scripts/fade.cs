@@ -11,11 +11,11 @@ public class fade : MonoBehaviour
 
     private bool isFaded = false;
     private int slide = 1;
-    private float time;
+    private float timeNow;
     // Start is called before the first frame update
     void Start()
     {
-        time = Time.time;
+        timeNow = Time.time;
         // fade in at start
         Fade();
     }
@@ -23,9 +23,9 @@ public class fade : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time >= duration * 2 + stay * 2){
+        if (Time.time >= duration * 2 + stay * 2 + timeNow){
             StartCoroutine(fadeIn(canvGroup2, canvGroup2.alpha, 1));
-        } else if (Time.time >= duration + stay) {
+        } else if (Time.time >= duration + stay + timeNow) {
             StartCoroutine(fadeIn(canvGroup1, canvGroup1.alpha, 0));
         } 
     }
