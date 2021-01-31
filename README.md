@@ -11,10 +11,18 @@ dangerous journey full of otherworldly creatures. Luckily, you're equipped with 
 
 Good luck!
 
+## Controls ⚙️
+
+WASD / arrow keys - move
+Left mouse - shoot
+P - pause
+
+You have limitted ammo. Collect more ammo around the overworld. Once you shoot a sock, it will 
+become dirty. Clean your socks at pools of detergent. 
+
 ## Team 👨‍👨‍👦‍👦
 
-* 🎶 Music/Audio: [Sean](https://github.com/tasteylunch)
+* 🎶 Music/Audio: [Sean](https://github.com/SeanM-UoA)
 * 🎨 Art/Design: [Samuel](https://github.com/tasteylunch)
 * 🖥️ Programmer: [Andrew](https://github.com/Zeyu-Li)
 * 💻 Programmer: [Boris](https://github.com/Struckdown)
-
