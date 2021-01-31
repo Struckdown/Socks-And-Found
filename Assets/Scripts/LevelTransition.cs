@@ -7,20 +7,34 @@ public class LevelTransition : MonoBehaviour
 {
 
     public Animator transition;
+    public bool transitionAutomatically = false;
+    public float timeBeforeAutoTransition = 3.0f;
+    public string autolevelTransitionLevelName = "onlyUseForAutoTransitionsDoNotuseIfUsingDoors";
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (transitionAutomatically)
+        {
+            StartCoroutine(AutoLoadLevel(autolevelTransitionLevelName));
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-
     }
 
     public void LoadNextLevel(string stringLevelName)
     {
+        StartCoroutine(LoadLevel(stringLevelName));
+    }
+
+    IEnumerator AutoLoadLevel(string stringLevelName)
+    {
+ 
+        yield return new WaitForSeconds(timeBeforeAutoTransition);
+
         StartCoroutine(LoadLevel(stringLevelName));
     }
 

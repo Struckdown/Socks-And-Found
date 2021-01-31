@@ -21,7 +21,11 @@ public class movement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        this.transform.position = GameManager.startPosition;
+
+        if (GameManager.startPosition != new Vector2(0, 0))
+        {
+            this.transform.position = GameManager.startPosition;
+        }
     }
 
     // Update is called once per frame
