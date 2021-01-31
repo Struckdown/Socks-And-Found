@@ -1731,12 +1731,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
         type: 3}
+      propertyPath: UVModule.mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
+        type: 3}
       propertyPath: ShapeModule.type
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
         type: 3}
       propertyPath: UVModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
+        type: 3}
+      propertyPath: UVModule.timeMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
+        type: 3}
+      propertyPath: UVModule.speedRange.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
@@ -1746,8 +1761,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
         type: 3}
+      propertyPath: UVModule.startFrame.scalar
+      value: 0.9999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
+        type: 3}
       propertyPath: ShapeModule.radiusThickness
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
+        type: 3}
+      propertyPath: UVModule.sprites.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
         type: 3}
@@ -1756,24 +1781,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
         type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
+        type: 3}
+      propertyPath: UVModule.startFrame.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
+        type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
+        type: 3}
+      propertyPath: UVModule.frameOverTime.minMaxState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
+        type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.10230861
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.6132076
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.054957267
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
         type: 3}
       propertyPath: ShapeModule.sphericalDirectionAmount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
+        type: 3}
+      propertyPath: UVModule.sprites.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: -9190553443689739090, guid: a4791252b2cbd3747a7e8c00d477a9a1,
+        type: 3}
+    - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
+        type: 3}
+      propertyPath: UVModule.sprites.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: -7615936985012749065, guid: a4791252b2cbd3747a7e8c00d477a9a1,
+        type: 3}
+    - target: {fileID: 7646262336269814057, guid: 87911753ec73b3b41a2498f2b9b11272,
+        type: 3}
+      propertyPath: UVModule.sprites.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 4418902293598272709, guid: a4791252b2cbd3747a7e8c00d477a9a1,
+        type: 3}
     - target: {fileID: 7646262336269814058, guid: 87911753ec73b3b41a2498f2b9b11272,
         type: 3}
       propertyPath: m_MaxParticleSize

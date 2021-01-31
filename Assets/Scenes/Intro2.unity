@@ -319,7 +319,7 @@ PrefabInstance:
     - target: {fileID: 446253042267595405, guid: 4e20e84fc685b05448188e4cb1b51272,
         type: 3}
       propertyPath: autolevelTransitionLevelName
-      value: room0
+      value: room1
       objectReference: {fileID: 0}
     - target: {fileID: 7584186413817786695, guid: 4e20e84fc685b05448188e4cb1b51272,
         type: 3}
