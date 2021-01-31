@@ -10,7 +10,10 @@ public class EnemyBase : MonoBehaviour
     public float acceleration = 5f;
     private float v;    //velocity
     public float maxSpeed = 3;
+    public int damage = 5;
+    public int health = 5;
 
+    public Animator animator;
 
     //Wander logic
     public float distanceToNoticePlayer = 5;
@@ -100,14 +103,38 @@ public class EnemyBase : MonoBehaviour
         curVelocity[0] = v*cosangle;
         curVelocity[1] = v*sinangle;
 
+        animator.SetFloat("VerticalMotion", curVelocity[1]);
+
         transform.Translate(curVelocity * Time.deltaTime);
 
-        // Check if bumped player
-        if ((player.transform.position - this.transform.position).magnitude < 0.3)
+
+    }
+
+    void takeDamage()
+    {
+        health -= 1;
+        if (health <= 0)
         {
-            bumpPlayer();
+            Destroy(gameObject);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            bumpPlayer();
+            collision.gameObject.GetComponent<playerShooter>().takeDamage(damage);
+        }
+        if (collision.gameObject.CompareTag("PlayerProjectile"))
+        {
+            takeDamage();
+            Destroy(collision.gameObject);
+            //GetComponent<playerShooter>().takeDamage(damage);
+        }
+
+    }
+
 
     void wander()
     {
