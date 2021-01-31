@@ -2488,7 +2488,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -91, y: 14}
+  m_AnchoredPosition: {x: -91, y: 42.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1959098797
@@ -2510,14 +2510,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Music/Audio: Sean
+  m_text: 'Team Sock
+
+    Music/Audio: Sean
 
     Art/Design: Samuel
 
-    Programmer: Andrew
-
     Programmer:
-    Boris'
+    Andrew
+
+    Programmer: Boris'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8bbaacc5a4552554b8436e3b41b0fca4, type: 2}
   m_sharedMaterial: {fileID: -6005072165971431066, guid: 8bbaacc5a4552554b8436e3b41b0fca4,
