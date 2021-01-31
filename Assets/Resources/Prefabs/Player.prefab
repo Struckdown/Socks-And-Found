@@ -547,7 +547,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flyingSocksLeft: 10
-  health: 100
   audio:
   - {fileID: 8300000, guid: 82a16d517746620498796792fcd22bed, type: 3}
   - {fileID: 8300000, guid: fb75ef4378f5ef244927dbfd2b5a726e, type: 3}
@@ -594,7 +593,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4b964f9fc7609bd42895ba49bc797690, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.02
   m_Pitch: 1
   Loop: 1
   Mute: 0
