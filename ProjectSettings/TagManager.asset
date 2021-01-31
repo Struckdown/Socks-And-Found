@@ -45,6 +45,6 @@ TagManager:
   - name: puddles
     uniqueID: 3176620243
     locked: 0
-  - name: enemies
+  - name: enemies+player
     uniqueID: 4288192763
     locked: 0
