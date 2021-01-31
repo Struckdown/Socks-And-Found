@@ -30,9 +30,11 @@ public class fade1 : MonoBehaviour
 
     public IEnumerator fadeIn(CanvasGroup canvGroup, float start, float end) {
         float counter = 0f;
+        Time.timeScale = 1; // Dirty fix, something is setting time scale to 0 when we lose the game, this is the easy fix
         while (counter < duration) {
             counter += Time.deltaTime;
             canvGroup.alpha = Mathf.Lerp(start, end, counter / duration);
+            Debug.Log("counter" + counter + "duration" + duration);
 
             yield return null;
         }
