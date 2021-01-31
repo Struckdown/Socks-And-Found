@@ -17,6 +17,8 @@ public class collectablesManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        cleanSocks = GameManager.cleanSocks;
+        dirtySocks = GameManager.dirtySocks;
         textClean.text = "x" + cleanSocks.ToString();
         textDirty.text = "x" + dirtySocks.ToString();
         if (instance==null) {
@@ -29,11 +31,13 @@ public class collectablesManager : MonoBehaviour
         audioSourceClean.Play();
         cleanSocks += sockValue;
         textClean.text = "x" + cleanSocks.ToString();
+        GameManager.cleanSocks = cleanSocks;
     }
     public void changeDirtySocks(int sockValue) {
         audioSourceDirty.Play();
         dirtySocks += sockValue;
         textDirty.text = "x" + dirtySocks.ToString();
+        GameManager.dirtySocks = dirtySocks;
     }
     public void cleanDirtySocks() {
         if (dirtySocks != 0) audioSourceCleanSocks.Play();
@@ -42,11 +46,14 @@ public class collectablesManager : MonoBehaviour
         // updates text
         textClean.text = "x" + cleanSocks.ToString();
         textDirty.text = "x" + dirtySocks.ToString();
+        GameManager.cleanSocks = cleanSocks;
+        GameManager.dirtySocks = dirtySocks;
     }
     public bool shoot() {
         if (cleanSocks == 0) return false;
         cleanSocks--;
         textClean.text = "x" + cleanSocks.ToString();
+        GameManager.cleanSocks = cleanSocks;
         return true;
     }
 }
