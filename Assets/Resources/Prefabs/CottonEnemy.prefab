@@ -51,12 +51,12 @@ MonoBehaviour:
   moveSpeed: 3
   moveDirection: {x: 1, y: 0}
   acceleration: 3
-  maxSpeed: 2
+  maxSpeed: 1.5
   damage: 5
   health: 2
   animator: {fileID: 4306919347806225170}
-  distanceToNoticePlayer: 5
-  leashRange: 10
+  distanceToNoticePlayer: 1
+  leashRange: 1
   wanderSpeed: 2
   delayBeforeNextMovement: 0
 --- !u!212 &3437323583137601327
