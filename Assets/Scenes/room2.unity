@@ -1699,6 +1699,21 @@ PrefabInstance:
       propertyPath: levelLoader
       value: 
       objectReference: {fileID: 684121215}
+    - target: {fileID: 3063517982887170601, guid: 2e339812fc2a5894eb976a0a6858bef6,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: room3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063517982887170601, guid: 2e339812fc2a5894eb976a0a6858bef6,
+        type: 3}
+      propertyPath: locationToSpawnIn.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063517982887170601, guid: 2e339812fc2a5894eb976a0a6858bef6,
+        type: 3}
+      propertyPath: locationToSpawnIn.y
+      value: 2.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3063517982887170604, guid: 2e339812fc2a5894eb976a0a6858bef6,
         type: 3}
       propertyPath: m_Name
