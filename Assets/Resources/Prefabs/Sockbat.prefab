@@ -52,7 +52,7 @@ MonoBehaviour:
   moveDirection: {x: 1, y: 0}
   acceleration: 3
   maxSpeed: 2
-  damage: 5
+  damage: 1
   health: 2
   audio:
   - {fileID: 8300000, guid: 28ab5e3ccee625342b3148fd8ac7c082, type: 3}

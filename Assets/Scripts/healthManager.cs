@@ -22,7 +22,7 @@ public class healthManager : MonoBehaviour
         // }
     }
 
-    void TakeDamage(int damage = 1) {
+    public void TakeDamage(int damage = 1) {
         currentHealth -= damage;
         if (currentHealth == 0) {
             gameOverMenu.SetActive(true);

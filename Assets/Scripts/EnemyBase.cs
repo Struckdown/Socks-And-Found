@@ -10,7 +10,7 @@ public class EnemyBase : MonoBehaviour
     public float acceleration = 5f;
     private float v;    //velocity
     public float maxSpeed = 3;
-    public int damage = 5;
+    public int damage = 1;
     public int health = 5;
 
     private Rigidbody2D rb;
@@ -138,13 +138,15 @@ public class EnemyBase : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             bumpPlayer();
-            collision.gameObject.GetComponent<playerShooter>().takeDamage(damage);
+            collision.gameObject.GetComponent<playerShooter>().playHurtSound();
+            Transform healthManager;
+            healthManager = collision.gameObject.transform.Find("All UI/ScoreManger");
+            healthManager.GetComponent<healthManager>().TakeDamage(damage);
         }
         if (collision.gameObject.CompareTag("PlayerProjectile"))
         {
             takeDamage();
             Destroy(collision.gameObject);
-            //GetComponent<playerShooter>().takeDamage(damage);
         }
 
     }
