@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class test : MonoBehaviour
+public class healthManager : MonoBehaviour
 {
     public int currentHealth;
     public int maxHealth = 20;
