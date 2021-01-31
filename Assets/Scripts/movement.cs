@@ -46,13 +46,24 @@ public class movement : MonoBehaviour
         moveInputHorizontal = Input.GetAxisRaw("Horizontal");
         moveInputVertical = Input.GetAxisRaw("Vertical");
 
-        if (moveInputHorizontal > 0) {
+        if (moveInputHorizontal > 0)
+        {
             animator.SetInteger("state", 3);
-        } else if (moveInputHorizontal < 0) {
+        }
+        else if (moveInputHorizontal < 0)
+        {
             animator.SetInteger("state", 1);
-        } else if (moveInputVertical > 0) {
+        }
+        else if (moveInputVertical > 0)
+        {
             animator.SetInteger("state", 2);
-        } else {
+        }
+        else if (moveInputVertical < 0)
+        {
+            animator.SetInteger("state", 4);
+        }
+        else
+        {
             animator.SetInteger("state", 0);
         }
 
