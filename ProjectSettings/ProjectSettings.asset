@@ -639,10 +639,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 484d116b-71c0-4049-9777-7aa02b857189
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: Socks and Found
+  organizationId: unity_6mvpkvne_coquq
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
