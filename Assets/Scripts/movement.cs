@@ -15,6 +15,7 @@ public class movement : MonoBehaviour
     private Rigidbody2D rb;
 
     public Animator animator;
+    public AudioSource footsteps;
 
 
     // Start is called before the first frame update
@@ -47,6 +48,15 @@ public class movement : MonoBehaviour
 
         animator.SetFloat("HorizontalMovement", moveInputHorizontal);
         animator.SetFloat("VerticalMovement", moveInputVertical);
+
+        if (moveInputHorizontal != 0 || moveInputVertical != 0)
+        {
+            footsteps.mute = false;
+        }
+        else
+        {
+            footsteps.mute = true;
+        }
         
 
         rb.velocity = new Vector2(moveInputHorizontal * speed, moveInputVertical * speed);
