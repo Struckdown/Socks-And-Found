@@ -53,7 +53,7 @@ MonoBehaviour:
   acceleration: 3
   maxSpeed: 0.5
   damage: 1
-  health: 2
+  health: 1
   audio:
   - {fileID: 8300000, guid: 28ab5e3ccee625342b3148fd8ac7c082, type: 3}
   - {fileID: 8300000, guid: 8cc24023cb9c5374ca3bec5c80357c99, type: 3}
@@ -63,7 +63,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 455d43613c948df4e83aca87acf08039, type: 3}
   animator: {fileID: 4306919347806225170}
   distanceToNoticePlayer: 1
-  leashRange: 1
+  leashRange: 3
   wanderSpeed: 2
   delayBeforeNextMovement: 0
 --- !u!212 &3437323583137601327
@@ -127,7 +127,7 @@ Animator:
   m_GameObject: {fileID: 5694464748508611780}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 7b2d9547d31c00045bb04c53b8b388b4, type: 2}
+  m_Controller: {fileID: 9100000, guid: d0914b63b69d6034ab0def67355eff95, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

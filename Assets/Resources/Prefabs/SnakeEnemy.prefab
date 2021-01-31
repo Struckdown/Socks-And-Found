@@ -18,6 +18,27 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -7838426799038375256, guid: 18292f5d8d6c13d479fdcb2a6bc0636c,
         type: 3}
+    - target: {fileID: 4306919347806225170, guid: 3dcc56bc9dbb5704b8331cae894f7941,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 7b2d9547d31c00045bb04c53b8b388b4,
+        type: 2}
+    - target: {fileID: 5694464748508611778, guid: 3dcc56bc9dbb5704b8331cae894f7941,
+        type: 3}
+      propertyPath: health
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5694464748508611778, guid: 3dcc56bc9dbb5704b8331cae894f7941,
+        type: 3}
+      propertyPath: wanderSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5694464748508611778, guid: 3dcc56bc9dbb5704b8331cae894f7941,
+        type: 3}
+      propertyPath: distanceToNoticePlayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5694464748508611779, guid: 3dcc56bc9dbb5704b8331cae894f7941,
         type: 3}
       propertyPath: m_RootOrder

@@ -22,6 +22,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BaseEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5874366561425077718, guid: 9d3e1ecfa947432408db228d481fc0c5,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 5874366561425077719, guid: 9d3e1ecfa947432408db228d481fc0c5,
         type: 3}
       propertyPath: m_RootOrder
