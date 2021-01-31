@@ -13,6 +13,8 @@ public class EnemyBase : MonoBehaviour
     public int damage = 5;
     public int health = 5;
 
+    private Rigidbody2D rb;
+
     public Animator animator;
 
     //Wander logic
@@ -32,6 +34,7 @@ public class EnemyBase : MonoBehaviour
         spawnPoint = transform.position;
         getNewGoalPoint();
         delayBeforeNextMovement = Random.Range(3, 6);
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -105,8 +108,8 @@ public class EnemyBase : MonoBehaviour
 
         animator.SetFloat("VerticalMotion", curVelocity[1]);
         animator.SetFloat("HorizontalMotion", curVelocity[0]);
-        transform.Translate(curVelocity * Time.deltaTime);
 
+        rb.velocity = curVelocity * Time.deltaTime;
 
     }
 

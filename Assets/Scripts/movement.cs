@@ -14,7 +14,7 @@ public class movement : MonoBehaviour
     // inits rigid body
     private Rigidbody2D rb;
 
-    // public Animator animator;
+    public Animator animator;
 
 
     // Start is called before the first frame update
@@ -45,8 +45,8 @@ public class movement : MonoBehaviour
         moveInputHorizontal = Input.GetAxisRaw("Horizontal");
         moveInputVertical = Input.GetAxisRaw("Vertical");
 
-        // animator.SetFloat("HorizontalMovement", moveInputHorizontal);
-        // animator.SetFloat("VerticalMovement", moveInputVertical);
+        animator.SetFloat("HorizontalMovement", moveInputHorizontal);
+        animator.SetFloat("VerticalMovement", moveInputVertical);
         
 
         rb.velocity = new Vector2(moveInputHorizontal * speed, moveInputVertical * speed);
