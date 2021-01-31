@@ -34,9 +34,8 @@ public class playerShooter : MonoBehaviour
         }
     }
 
-    public void takeDamage(int damage)
+    public void playHurtSound()
     {
-        health -= damage;
         AudioSource.PlayClipAtPoint(audio[Random.Range(0, audio.Length)], this.gameObject.transform.position);
     }
 }
