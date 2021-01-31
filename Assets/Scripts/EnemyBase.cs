@@ -146,6 +146,8 @@ public class EnemyBase : MonoBehaviour
         if (collision.gameObject.CompareTag("PlayerProjectile"))
         {
             takeDamage();
+            GameObject sock = (GameObject)Instantiate(Resources.Load("Prefabs/smellySock"));
+            sock.transform.position = transform.position;
             Destroy(collision.gameObject);
         }
 
