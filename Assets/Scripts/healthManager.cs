@@ -10,8 +10,9 @@ public class healthManager : MonoBehaviour
     public GameObject gameOverMenu;
     void Start()
     {
-        currentHealth = 20;// GameManager.playerHealth;
+        currentHealth = GameManager.playerHealth;
         healthBar.SetMaxHealth(maxHealth);
+        healthBar.SetHealth(currentHealth);
     }
 
     // Update is called once per frame
@@ -29,6 +30,6 @@ public class healthManager : MonoBehaviour
             Time.timeScale = 0f;
         }
         healthBar.SetHealth(currentHealth);
-        //GameManager.playerHealth = currentHealth;
+        GameManager.playerHealth = currentHealth;
     }
 }
