@@ -6,8 +6,10 @@ using TMPro;
 public class collectablesManager : MonoBehaviour
 {
     public static collectablesManager instance;
-    public TextMeshProUGUI text;
-    public int score = 0;
+    public TextMeshProUGUI textClean;
+    public TextMeshProUGUI textDirty;
+    public int cleanSocks = 0;
+    public int dirtySocks = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -18,8 +20,12 @@ public class collectablesManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void changeScore(int gemValue) {
-        score += gemValue;
-        text.text = "x" + score.ToString();
+    public void changeCleanSocks(int sockValue) {
+        cleanSocks += sockValue;
+        textClean.text = "x" + cleanSocks.ToString();
+    }
+    public void changeDirtySocks(int sockValue) {
+        dirtySocks += sockValue;
+        textDirty.text = "x" + dirtySocks.ToString();
     }
 }
