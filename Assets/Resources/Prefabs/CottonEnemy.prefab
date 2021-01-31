@@ -51,7 +51,7 @@ MonoBehaviour:
   moveSpeed: 3
   moveDirection: {x: 1, y: 0}
   acceleration: 3
-  maxSpeed: 1.5
+  maxSpeed: 0.5
   damage: 1
   health: 2
   audio:
