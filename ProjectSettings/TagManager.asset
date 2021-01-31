@@ -42,3 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: puddles
+    uniqueID: 3176620243
+    locked: 0
+  - name: enemies
+    uniqueID: 4288192763
+    locked: 0
