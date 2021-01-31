@@ -41,4 +41,10 @@ public class collectablesManager : MonoBehaviour
         textClean.text = "x" + cleanSocks.ToString();
         textDirty.text = "x" + dirtySocks.ToString();
     }
+    public bool shoot() {
+        if (cleanSocks == 0) return false;
+        cleanSocks--;
+        textClean.text = "x" + cleanSocks.ToString();
+        return true;
+    }
 }
