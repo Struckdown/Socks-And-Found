@@ -23,10 +23,6 @@ public class movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
-        if (GameManager.startPosition != new Vector2(0, 0))
-        {
-            this.transform.position = GameManager.startPosition;
-        }
     }
 
     // Update is called once per frame
