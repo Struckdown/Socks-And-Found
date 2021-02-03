@@ -627,6 +627,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8013311573424286846}
+        m_MethodName: publicStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &375942473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2743,6 +2754,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8594179705560734746}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8013311573424286846 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1761374213994360932, guid: 8279e5888e0fd0a478bca59211ca8b97,
+    type: 3}
+  m_PrefabInstance: {fileID: 8594179705560734746}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8013311573424286845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ccba4a190652f41b2951e8e7eccabc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8594179705560734746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2750,6 +2773,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1761374213994360932, guid: 8279e5888e0fd0a478bca59211ca8b97,
+        type: 3}
+      propertyPath: nextScene
+      value: room1
+      objectReference: {fileID: 0}
     - target: {fileID: 1761374213994360935, guid: 8279e5888e0fd0a478bca59211ca8b97,
         type: 3}
       propertyPath: m_Name

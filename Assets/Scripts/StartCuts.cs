@@ -19,12 +19,17 @@ public class StartCuts : MonoBehaviour
     {
     }
 
+    public void publicStart()
+    {
+        StartCoroutine(LoadLevel());
+    }
+
     IEnumerator LoadLevel()
     {
         transition.SetTrigger("Start");
 
         yield return new WaitForSeconds(2);
-        // Debug.Log("Loaded Main");
+
 
         SceneManager.LoadScene(nextScene);
     }
