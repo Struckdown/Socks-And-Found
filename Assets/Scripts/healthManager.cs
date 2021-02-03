@@ -8,6 +8,8 @@ public class healthManager : MonoBehaviour
     public int maxHealth = 20;
     public HealthBarScript healthBar;
     public GameObject gameOverMenu;
+    public bool invulnerable = false;
+
     void Start()
     {
         currentHealth = GameManager.playerHealth;
@@ -24,6 +26,10 @@ public class healthManager : MonoBehaviour
     }
 
     public void TakeDamage(int damage = 1) {
+        if (invulnerable)
+        {
+            return;
+        }
         currentHealth -= damage;
         if (currentHealth == 0) {
             gameOverMenu.SetActive(true);

@@ -10,6 +10,7 @@ public class LevelTransition : MonoBehaviour
     public bool transitionAutomatically = false;
     public float timeBeforeAutoTransition = 3.0f;
     public string autolevelTransitionLevelName = "onlyUseForAutoTransitionsDoNotuseIfUsingDoors";
+    private GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +42,12 @@ public class LevelTransition : MonoBehaviour
     IEnumerator LoadLevel(string stringLevelName)
     {
         transition.SetTrigger("Start");
+
+        player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            player.GetComponentInChildren<healthManager>().invulnerable = true;
+        }
 
         yield return new WaitForSeconds(2);
 
