@@ -19,7 +19,6 @@ public class door : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            GameManager.startPosition = locationToSpawnIn;
             levelLoader.LoadNextLevel(sceneToLoad);
         }
     }
