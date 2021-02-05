@@ -422,6 +422,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: pauseMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 8405094739908143135, guid: 75e15c8fe6caf654b9af72931171d7f9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8405094740319740701, guid: 75e15c8fe6caf654b9af72931171d7f9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8405094740319740703, guid: 75e15c8fe6caf654b9af72931171d7f9,
         type: 3}
       propertyPath: m_UiScaleMode
@@ -10054,6 +10064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LevelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 7584186413817786695, guid: 4e20e84fc685b05448188e4cb1b51272,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7584186413817786696, guid: 4e20e84fc685b05448188e4cb1b51272,
         type: 3}
